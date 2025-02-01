@@ -35,3 +35,20 @@ The **Book Review Application** is a REST API built using Django and Django REST
 - **Pagination**:
   - Pagination is implemented for listing books and reviews to handle large datasets efficiently.
 
+---
+
+## Technologies Used
+
+- **Backend**:
+  - Django
+  - Django REST Framework
+  - JWT for authentication
+  - SQLite (default database for development)
+
+- **Frontend**:
+  - This project is a backend-only application. You can use any frontend framework (e.g., React, Angular, Vue.js) to consume the API.
+
+- **Other Tools**:
+  - Postman (for API testing)
+  - Python `requests` library for automated testing (attached a sample module for testing the API without using Postman or cURL)
+
