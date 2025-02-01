@@ -15,3 +15,23 @@ The **Book Review Application** is a REST API built using Django and Django REST
 6. [Contributing](#contributing)
 7. [License](#license)
 
+---
+
+## Features
+
+- **User Authentication**:
+  - User registration and login using JWT.
+  - Secured endpoints for authenticated users.
+
+- **Book Management**:
+  - Authenticated users can publish books with details like title, author, description, and cover image.
+  - Users can list all books, retrieve a specific book, update and delete their own books.
+
+- **Review and Comment System**:
+  - Users can post reviews on books published by other users.
+  - Users can edit or delete only their own reviews.
+  - Users cannot review on their own books.
+
+- **Pagination**:
+  - Pagination is implemented for listing books and reviews to handle large datasets efficiently.
+
