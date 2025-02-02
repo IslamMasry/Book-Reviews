@@ -15,8 +15,7 @@ class BookSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class ReviewSerializer(serializers.ModelSerializer):
-    user = UserSerializer(read_only=True)
-
     class Meta:
         model = Review
-        fields = '__all__'
+        fields = ['id', 'user', 'book', 'content', 'created_at', 'updated_at']
+        read_only_fields = ['user', 'book', 'created_at', 'updated_at']
